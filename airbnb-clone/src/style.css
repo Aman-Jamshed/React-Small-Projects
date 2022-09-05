@@ -30,19 +30,19 @@ section {
 
 .hero {
     display: flex;
-    float: column;
+    flex-direction: column;
 }
 
 .hero--photo {
-    max-width: 400px;
+    max-width: 405px;
     align-self: center;
 
 }
 
 
 .hero--header {
-    /* margin-bottom: 16px; */
-    position: absolute;
+    margin-bottom: 16px;
+    /* position: absolute;
     width: 347px;
     height: 40px;
     left: 36px;
@@ -52,12 +52,12 @@ section {
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 110%;
+    line-height: 110%; */
 }
 
 .hero--text {
-    /* margin-top: 0; */
-    position: absolute;
+    margin-top: 0;
+    /* position: absolute;
     width: 320px;
     height: 56px;
     left: 36px;
@@ -67,21 +67,40 @@ section {
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
-    line-height: 110%;
+    line-height: 110%; */
 }
+
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
 
 .card {
     width: 175px;
     font-size: 12px;
+    flex: 0 0 auto;   
+    display: flex;      
+    flex-direction: column;
+    position: relative;
 }
+
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 
 .gray {
     color: #918E9B;
 }
 
-.card--photo {
+.card--image {
     width: 100%;
-    
+    margin-bottom: 9px;
     border-radius: 9px;
 }
 
@@ -94,8 +113,20 @@ section {
     height: 14px;
 }
 
+.card--price {
+    margin-top: auto;
+}
 
 
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
 
 
 

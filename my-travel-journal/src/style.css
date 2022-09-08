@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+nav {
+    
+    height: 70px;
+    display: flex;
+    background-color: #F55A5A;
+    padding: 20px 36px;
+    /* background: #FFFFFF; */
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* .header {
+    color: aliceblue;
+} */
+
+.nav--logo {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 60px;
+    top: 20px;
+
+    /* background: #FFFFFF; */
+}
+
+/* .nav--path {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 60px;
+    top: 20px;
+
+    
+
+} */
+
+.header {
+    position: absolute;
+    width: 120px;
+    height: 24px;
+    left: 94px;
+    top: 10px;
+    
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 17px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+
+    color: #2c2727;
+}
+
+/* .card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;   
+    display:flex;      
+    flex-direction: column;
+    position: relative;
+    padding-top: -350px;
+} */
+
+
+
+
+
+.card--img {
+    position: relative;
+    width: 125px;
+    height: 188px;
+    left: 40px;
+    top: 90px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+  }
+
+.card--location {
+    position: relative;
+    width: 7px;
+    height: 9.55px;
+    left: 184px;
+    top: -90px;
+
+   
+}
+  
+
+/* .break {
+    position: relative;
+    width: 478px;
+    height: 0px;
+    left: 40px;
+    top: 286px;
+
+    border: 1px solid #F5F5F5;
+} */
+
+.location {
+    position: relative;
+    /* width: 40px;
+    height: 10px;
+    left: 195px;
+    top: 119px; */
+    width: 100px;
+    height: 9.55px;
+    left: 206px;
+    top: -128px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+
+    color: #3d3c42;
+
+}
+
+.card--map {
+    position: relative;
+    width: 100px;
+    height: 13px;
+    left: 290px;
+    top: -162px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+
+    /* identical to box height */
+    text-decoration-line: underline;
+
+    color: #b6b2c2;
+
+}
+
+.card--title {
+    position: relative;
+    width: 326px;
+    height: 40px;
+    left: 184px;
+    top: -176px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #2B283A;
+
+}
+
+.card--date {
+    position: relative;
+    width: 319px;
+    height: 11px;
+    left: 184px;
+    top: -198px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+
+    color: #2B283A;
+
+}
+
+.card--des {
+    position: relative;
+    width: 326px;
+    height: 45px;
+    left: 184px;
+    top: -200px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+    /* or 15px */
+
+    color: #2B283A;
+} 
+
+
+.card {
+    height: 250px;
+}
